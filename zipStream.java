@@ -11,7 +11,7 @@ public class zipStream{
     public static void main(String[] args) throws Exception {
      String url= "https://corpus.byu.edu/wikitext-samples/text.zip";
      URL obj1 = new URL (url);
-     String dst = "hdfs://cshadoop1/user/pxk170930/AssiCorp.txt";
+     String dst = "hdfs://cshadoop1/user/useracoount/file.txt";
      
        InputStream a = obj1.openStream();
        ZipInputStream in = new ZipInputStream(a);
