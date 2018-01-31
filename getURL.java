@@ -11,13 +11,12 @@ import java.io.*;
 
 public class getURL{
     public static void main(String[] args) throws Exception {
-    	String url[]= {"http://www.utdallas.edu/~axn112530/cs6350/lab2/input/20417.txt.bz2",
-    			"http://www.utdallas.edu/~axn112530/cs6350/lab2/input/5000-8.txt.bz2",
-    			"http://www.utdallas.edu/~axn112530/cs6350/lab2/input/132.txt.bz2",
-    			"http://www.utdallas.edu/~axn112530/cs6350/lab2/input/1661-8.txt.bz2",
-    			"http://www.utdallas.edu/~axn112530/cs6350/lab2/input/972.txt.bz2",
-    			"http://www.utdallas.edu/~axn112530/cs6350/lab2/input/19699.txt.bz2"};
-    	String dst = "hdfs://cshadoop1/user/pxk170930/Assignment1/book";
+    	String url[]= {"<url>/book1.bz2",
+    			"<url>/book2.bz2",
+    			"<url>/book3.bz2",
+    			"<url>/book4.bz2",
+    			};
+    	String dst = "hdfs://cshadoop1/user/useraccount/Assignment1/book";
     	int i;
     	for(i=0;i<=5;i++)
     	{
