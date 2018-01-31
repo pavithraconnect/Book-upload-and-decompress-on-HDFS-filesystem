@@ -15,7 +15,7 @@ import org.apache.hadoop.io.compress.CompressionCodecFactory;
 public class Decompressor {
 
 	  public static void main(String[] args) throws Exception {
-	    String uri = "hdfs://cshadoop1/user/pxk170930/Assignment1/book";
+	    String uri = "hdfs://cshadoop1/user/useraccount/Assignment1/book";
 	    int i;
 	    for(i=0;i<=5;i++)
 	    {
